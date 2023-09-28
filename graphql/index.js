@@ -9,7 +9,7 @@ const connectionString = "AccountEndpoint=https://jotestcosmosdb.documents.azure
 const databaseName = "testDB";
 const containerName = "testContainer";
 const client = new CosmosClient(connectionString);
-
+//Test
 const typeDefs = gql`
   type Config
   {
