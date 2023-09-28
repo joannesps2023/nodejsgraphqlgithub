@@ -1,4 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
+    # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy Node.js project to Azure Function App - NODEJSGRAPHQLGITHUB
@@ -41,4 +41,4 @@ jobs:
           app-name: 'NODEJSGRAPHQLGITHUB'
           slot-name: 'production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_818D0A6F7FE447E4A8EC454B5A178AA4 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_0325dde2f4094f58a76b4950b82ccb66 }}
