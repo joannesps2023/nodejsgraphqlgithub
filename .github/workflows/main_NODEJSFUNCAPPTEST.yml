@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js project to Azure Function App - NODEJSGRAPHQLGITHUB
+name: Build and deploy Node.js project to Azure Function App - NODEJSFUNCAPPTEST
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'NODEJSGRAPHQLGITHUB'
-          slot-name: 'Production'
+          app-name: 'NODEJSFUNCAPPTEST'
+          slot-name: 'production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_818D0A6F7FE447E4A8EC454B5A178AA4 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_a33aad58523946018657cfece39887d7 }}
