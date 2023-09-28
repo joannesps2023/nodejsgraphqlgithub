@@ -23,7 +23,7 @@ type Query {
   }
 `;
 
-
+//Test
   getUser = async (_, { id }) => {
     let idString = "(";
     id.forEach(idelem=>
